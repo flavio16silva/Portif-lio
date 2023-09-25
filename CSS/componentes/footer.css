@@ -1,0 +1,33 @@
+/* Geral */
+footer {
+  background-color: var(--light-tertiary-color);
+}
+
+/* Primeira Div */
+footer .footer__content {
+  text-align: center;
+  padding: 6rem 2rem 1rem;
+  max-width: 47rem;
+}
+
+/* Contatos */
+footer .footer__content .footer__contact span{
+  display: block;
+  font-weight: 500;
+}
+
+/*Icones Sociais */
+footer .footer__content ul li {
+  display: inline-block;
+}
+
+footer .footer__content ul a {
+  display: inline-block;
+  padding: 1.4rem;
+}
+
+/* Copyright */
+footer .footer__content .footer__copyright {
+  font-size: 1.4rem;
+}
+
