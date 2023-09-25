@@ -1,0 +1,40 @@
+/* Sobre */
+about {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  scroll-margin-top: 20rem;
+}
+
+/* Sobre - Além do código... */
+.about .about__left {
+  max-width: 40rem;
+  flex:1;
+}
+
+/* Sobre - Paragrafo */
+.about .about__left p {
+  margin: 1rem 0 2rem;
+}
+
+/* Lista das Redes Sociais */
+.about .about__left ul {
+  margin-left: -1.2rem;
+}
+
+/* Lista das Redes Sociais - Lista */
+.about .about__left ul li {
+  display: inline-block;
+}
+
+/* Lista das Redes Sociais - a */
+.about .about__left ul li a {
+  display: inline-block;
+  padding: 1rem;
+}
+
+/* Sobre - Texto a Direira */
+.about .about__right{
+  flex:1;
+  max-width: 66rem;
+}
