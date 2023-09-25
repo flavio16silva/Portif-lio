@@ -1,0 +1,36 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; /*nada subscrever esse componente*/
+  background-color: var(--white);
+}
+
+/* navbar de modo geral */
+.navbar .navbar__content {
+  padding: 3rem 4rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Lista de Links - li */
+.navbar .navbar__content .navbar__links li {
+  display: inline-block; /*alinhamento lado a lado*/
+}
+
+/*Espaçamento entre os links -Sem pegar o último: Contato*/
+.navbar .navbar__content .navbar__links li:not(:last-of-type) { 
+  margin-right: 2rem;
+}
+
+/* Aumentar a area do click do mouse */
+.navbar .navbar__content .navbar__links li a {
+  padding: 1rem;
+  display: inline-block;
+}
+
+/* Ao passar do mouse */
+.navbar .navbar__content .navbar__links li a:hover {
+  color: var(--tertiary-color)
+}
