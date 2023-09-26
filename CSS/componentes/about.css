@@ -1,5 +1,5 @@
 /* Sobre */
-about {
+.about {
   display: flex;
   justify-content: space-between;
   gap: 4rem;
@@ -9,7 +9,7 @@ about {
 /* Sobre - Além do código... */
 .about .about__left {
   max-width: 40rem;
-  flex:1;
+  flex: 1;
 }
 
 /* Sobre - Paragrafo */
@@ -22,9 +22,9 @@ about {
   margin-left: -1.2rem;
 }
 
-/* Lista das Redes Sociais - Lista */
+/* Lista das Redes Sociais - Icones */
 .about .about__left ul li {
-  display: inline-block;
+  display: inline-block; /*Para ficar um ao lado do outro*/
 }
 
 /* Lista das Redes Sociais - a */
@@ -35,6 +35,23 @@ about {
 
 /* Sobre - Texto a Direira */
 .about .about__right{
-  flex:1;
+  flex: 1;
   max-width: 66rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about .about__left {
+    max-width: 66rem;
+    text-align: center;
+  }
+
+  .about .about__right {
+    text-align: center;
+  }
 }
