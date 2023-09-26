@@ -79,6 +79,7 @@ p:not(:last-of-type),
   margin-bottom: 26rem;
 }
 
+/* Margin-Bottom */
 .mb-0 {
   margin-bottom: 0;
 }
