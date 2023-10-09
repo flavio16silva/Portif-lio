@@ -33,10 +33,20 @@
   padding: 1rem;
 }
 
-/* Sobre - Texto a Direira */
+/* Sobre - Texto a Direita */
 .about .about__right{
   flex: 1;
   max-width: 66rem;
+}
+
+/* Linguagens */
+.about .about__right .box-title {
+  width: 42rem;     /* 420px */
+  height: 37vh;
+  margin-top: 1rem; /* 20px */
+  padding: 0 1rem;  /* 10px */
+  box-shadow: 0 0 10px 0 var(--gray);
+  border-radius: 1.5rem;
 }
 
 /* Media Queries */
