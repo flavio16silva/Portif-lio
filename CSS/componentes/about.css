@@ -46,7 +46,56 @@
   margin-top: 1rem; /* 20px */
   padding: 0 1rem;  /* 10px */
   box-shadow: 0 0 10px 0 var(--gray);
-  border-radius: 1.5rem;
+  border-radius: 1rem;
+  background: #e7e4e4;
+}
+/* Porcentagem das Linguagens */
+.about .about__right .box-title p {
+  margin-bottom: -7px;
+  font-weight: 800;
+}
+
+/* Linguagens - Nome das linguagens */
+.about .about__right .box-title span {
+  color: var(--primary-color);
+  font-weight: 800;    
+}
+/* Prenchimento da Porcentagem - Primeira cor */
+.about .about__right .box-title .b1 {
+  width: 400px;
+  height: 8px;
+  background: var(--primary-color);
+  margin-top: 2px;
+  border-radius: 5px;
+}
+
+/* Prenchimento da Porcentagem - Segunda cor */
+.about .about__right .box-title .b2 {
+  width: 280px;
+  height: 8px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.about .about__right .box-title .b3 {
+  width: 230px;
+  height: 8px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.about .about__right .box-title .b4 {
+  width: 100px;
+  height: 8px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.about .about__right .box-title .b5 {
+  width: 150px;
+  height: 8px;
+  background: #fff;
+  border-radius: 5px;
 }
 
 /* Media Queries */
