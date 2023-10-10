@@ -10,8 +10,10 @@
 /* navbar de modo geral */
 .navbar .navbar__content {
   padding: 3rem 4rem 1rem;
-  display: flex;
+  display: flex; 
   justify-content: space-between;
+  text-transform: uppercase; /*Alteração para Maiuscula*/
+  font-weight: 600;          /*Alteração fonte mais escura*/
 }
 
 /* Lista de Links - li */
@@ -21,7 +23,7 @@
 
 /*Espaçamento entre os links -Sem pegar o último: Contato*/
 .navbar .navbar__content .navbar__links li:not(:last-of-type) { 
-  margin-right: 2rem;
+  margin-right: 1.2rem;
 }
 
 /* Aumentar a area do click do mouse */
