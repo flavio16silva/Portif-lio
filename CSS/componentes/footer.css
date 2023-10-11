@@ -1,6 +1,7 @@
 /* Geral */
 footer {
   background-color: var(--light-tertiary-color);
+
 }
 
 /* Primeira Div */
@@ -11,9 +12,23 @@ footer .footer__content {
 }
 
 /* Contatos */
+
 footer .footer__content .footer__contact span{
   display: block;
-  font-weight: 500;
+  font-weight:700;
+}
+
+footer .footer__content .footer__contact{
+  display: block;
+  align-items: flex-start;
+  justify-content: space-between;
+ 
+} 
+
+footer .footer__content .footer__contact a{
+ display: block;
+ margin: auto;
+ 
 }
 
 /*Icones Sociais */
