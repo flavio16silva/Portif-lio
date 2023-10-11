@@ -21,7 +21,7 @@
   display: inline-block; /*alinhamento lado a lado*/
 }
 
-/*Espaçamento entre os links -Sem pegar o último: Contato*/
+/*Espaçamento entre os links - Sem pegar o último: Contato*/
 .navbar .navbar__content .navbar__links li:not(:last-of-type) { 
   margin-right: 1.2rem;
 }
