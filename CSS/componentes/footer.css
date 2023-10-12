@@ -8,14 +8,18 @@ footer {
 footer .footer__content {
   text-align: center;
   padding: 6rem 2rem 1rem;
-  max-width: 47rem;
+  max-width: 50rem;
+  
 }
 
-/* Contatos */
+/* Contact with me */
+footer .footer__content h2 {
+  font-weight: 600;
+}
 
 footer .footer__content .footer__contact span{
   display: block;
-  font-weight:700;
+  font-weight: 700;
 }
 
 footer .footer__content .footer__contact{
@@ -44,5 +48,15 @@ footer .footer__content ul a {
 /* Copyright */
 footer .footer__content .footer__copyright {
   font-size: 1.4rem;
+  background: #74797e;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  box-shadow: 0 0 15px 0 #7f7d7d;
+  border-radius: 0.5rem;
+}
+
+footer .footer__content .footer__copyright a:hover {
+    text-decoration:underline;
 }
 

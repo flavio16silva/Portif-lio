@@ -8,12 +8,12 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  
+  border: none; 
  }
  
 /* Criação dos Inputs - Cards */
 #port .container input[type=radio]{
-  display: none;
+  display: none; 
 }
 
 /* Container dos Cards */
@@ -30,6 +30,7 @@
   box-shadow: 0 0 10px 0 rgba(73, 76, 78, 0.5);
   transition: 0.4s ease;
   cursor: pointer;
+  border: none;
 }
 
 #port .container h2{ 
@@ -46,7 +47,9 @@
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+  border: none;
 }
+
 /* Titulo dos Cards */
 #port .container .card h1{
   text-transform: uppercase;
@@ -56,6 +59,7 @@
   font-size: 6rem;
   margin-top: 60px;
 }
+
 /* Paragrafo dos Cards */
 #port .container .card p{
   position: absolute;
@@ -66,6 +70,7 @@
   text-align: justify;
   line-height: 25px;
 }
+
 /* Botão do Card: Hire me */
 #port .container .card button{
   position: absolute;
@@ -110,4 +115,43 @@
   transform: translateX(0) scale(1);
   opacity: 1;
   z-index: 1;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1280px) {
+  #port .container .card h1{
+    font-size: 5rem;
+  }
+  #port .container .card p{
+    width: 70%;
+    height: 70%;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 960px){
+  #port .container .card{
+    width: 60%;
+    height:50%; 
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  #port .container .card{
+    width: 50%;
+    height: 50%; 
+  }
+  #port .container .card h1{
+    font-size: 3rem;
+  }
+
+  #port .container .card p{
+    width: 280px;
+    font-size: 1.5rem;
+  }
+
+
+
+
 }
