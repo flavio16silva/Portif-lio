@@ -141,6 +141,7 @@
   #port .container .card{
     width: 50%;
     height: 50%; 
+    text-align: center;
   }
   #port .container .card h1{
     font-size: 3rem;

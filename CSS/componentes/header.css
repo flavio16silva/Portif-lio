@@ -60,6 +60,11 @@ header .header__right .header__image .background {
   header {
     flex-direction: column-reverse;
     text-align: center;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 3rem;
   }
 
   header .header__left p {
